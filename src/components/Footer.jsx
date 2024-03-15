@@ -9,10 +9,10 @@ const MyFooter = () => {
       <div class="row text-center mt-5">
         <div class="col-6 offset-3">
           <div class="row">
-            <div class="col col-12 text-left mb-2">
-              <FaFacebook />
-              <FaInstagramSquare />
-              <FaXTwitter />
+            <div class="col col-12 text-left mb-2 d-flex gap-2 mb-3">
+              <FaFacebook className="icon fs-4" />
+              <FaInstagramSquare className="icon fs-4" />
+              <FaXTwitter className="icon fs-4" />
             </div>
           </div>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg 4">

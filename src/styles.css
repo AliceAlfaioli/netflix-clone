@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Navbar */
+/* ----------Navbar */
 #logo {
   height: 50px;
   margin-left: 15px;
@@ -87,7 +87,7 @@ body {
   border: gray 1px solid;
 }
 
-/* Film section */
+/*------------------------Film section */
 .movie-row {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -112,7 +112,7 @@ h2 {
   margin-left: 70px;
 }
 
-/* Footer */
+/* ---------------Footer */
 .footer-links {
   text-align: left;
   font-size: 0.8em;
@@ -124,6 +124,10 @@ h2 {
   color: #838383;
 }
 
+.icon {
+  color: #838383;
+}
+
 .footer-links button {
   color: #838383;
   background: none;
@@ -132,11 +136,6 @@ h2 {
   font: inherit;
   cursor: pointer;
   outline: inherit;
-}
-
-.service-button {
-  color: #838383;
-  border-color: #838383;
 }
 
 .copyright {
